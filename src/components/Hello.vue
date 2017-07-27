@@ -1,5 +1,10 @@
 <template>
   <div class="hello">
+    <div class="menu">
+      <router-link to="/">Home</router-link>
+      <router-link to="/bacon-hunter">Bacon Hunter</router-link>
+
+    </div>
     <h1>{{ msg }}</h1>
 
   </div>

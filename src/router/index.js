@@ -11,9 +11,18 @@ export default new Router({
   routes: [
     {
       path: '/',
+      name: 'Hello',
+      component: Hello
+    },
+    {
+      path: '/bacon-hunter',
       name: 'Bacon',
       component: Bacon
     },
-    
+    {
+      path: '*',
+      name: '404',
+      component: erro
+    }
   ]
 })
