@@ -998,17 +998,19 @@ bottom
 
 <style lang="scss" scoped>
   .Bacon {
-    background: #2a2b3e;
+    background: #fff;
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
   }
 
   .game {
-    width: 90vw;
-    height: 80vh;
+    border: 1px solid rgba(0,0,0,.2);
+    width: 100vw;
+    height: 100vh;
     background: #55D0E2;
     position: relative;
     overflow: hidden;

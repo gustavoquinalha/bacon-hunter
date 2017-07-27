@@ -14,15 +14,6 @@ export default new Router({
       name: 'Bacon',
       component: Bacon
     },
-    {
-      path: '/bacon-hunter',
-      name: 'Bacon',
-      component: Bacon
-    },
-    {
-      path: '*',
-      name: '404',
-      component: erro
-    }
+    
   ]
 })
