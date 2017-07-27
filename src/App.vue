@@ -1,7 +1,7 @@
 <template>
   <div id="app">
 <div class="menu">
-  <router-link to="/">Home</router-link>
+  <!-- <router-link to="/">Home</router-link> -->
   <router-link to="/bacon-hunter">Bacon Hunter</router-link>
 
 </div>
